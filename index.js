@@ -1,12 +1,25 @@
 
 
+
+console.log(x);
+//console.log(getName);
+
 var x = 7;
 
-function getName(){
-    console.log("Namaste JavaScript");
+
+
+
+var getName1 = () => {
+    console.log("Namaste JavaScript 1");
 }
 
-getName();
-console.log(x);
-console.log(getName);
+function getName2(){
+    console.log("Namaste JavaScript 2");
+}
 
+var getName3 = function() {
+    console.log("Namaste JavaScript 3");
+}
+
+
+getName1();
