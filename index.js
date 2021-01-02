@@ -1,11 +1,9 @@
 
+let a = 10;
+console.log(a);
+var b = 100;
+// only var can be created in Global Memory Space
+// let and const are created in script;
+//
 
-function a(){
-    var b = 10;
-    c();
-    function c(){
-        console.log(b);
-    }
-}
-
-a();
+// Temporal Dead Zone : the time between the let var hoiseted and initilized it some value
